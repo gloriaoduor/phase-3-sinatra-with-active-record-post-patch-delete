@@ -39,6 +39,8 @@ group :development do
   gem "rerun"
 
   gem "pry"
+  gem 'webpacker', '~>3.0'
+  gem 'psych', '< 4'
 end
 
 # These gems will only be used when we are running tests
